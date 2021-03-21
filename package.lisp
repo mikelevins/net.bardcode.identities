@@ -9,4 +9,7 @@
 ;;;; ***********************************************************************
 
 (defpackage #:net.bardcode.identities
-  (:use #:cl))
+  (:use #:cl)
+  (:export #:identity? #:uuid->identity #:identity->uuid #:makeid
+           #:identity->string #:make-identity-string #:identity-string?
+           #:string->identity))
