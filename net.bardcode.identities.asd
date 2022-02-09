@@ -1,7 +1,7 @@
 ;;;; ***********************************************************************
 ;;;;
 ;;;; Name:          net.bardcode.identities.asd
-;;;; Project:       Delectusweb
+;;;; Project:       net.bardcode.identities
 ;;;; Purpose:       unique identity strings
 ;;;; Author:        mikel evins
 ;;;; Copyright:     2021 by mikel evins
@@ -16,7 +16,8 @@
   :serial t
   :depends-on (:uuid :binascii)
   :components ((:file "package")
-               (:file "identities")))
+               (:file "identities")
+               (:file "snowflakes")))
 
 ;;; (asdf:load-system :net.bardcode.identities)
 ;;; (ql:quickload :net.bardcode.identities)
