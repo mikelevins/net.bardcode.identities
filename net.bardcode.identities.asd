@@ -16,6 +16,7 @@
   :serial t
   :depends-on (:uuid :binascii)
   :components ((:file "package")
+               (:file "parameters")
                (:file "identities")
                (:file "snowflakes")))
 
